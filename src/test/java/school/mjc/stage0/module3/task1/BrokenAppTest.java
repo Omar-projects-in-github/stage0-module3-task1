@@ -22,7 +22,7 @@ class BrokenAppTest extends BaseIOTest {
     }
 
     @Test
-    void dummyTest(CompilationUnit parsed) {
+    public void dummyTest(CompilationUnit parsed) {
         MethodDeclaration main = findMain(parsed);
 
         int helloWorldSouts = main.findAll(MethodCallExpr.class,
