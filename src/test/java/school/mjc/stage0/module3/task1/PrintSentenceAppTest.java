@@ -26,7 +26,7 @@ class PrintSentenceAppTest extends BaseIOTest {
     }
 
     @Test
-    void verifyCode(CompilationUnit parsed) {
+    public void verifyCode(CompilationUnit parsed) {
         MethodDeclaration main = findMain(parsed);
 
         int helloWorldSouts = main.findAll(MethodCallExpr.class,
