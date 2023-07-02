@@ -7,5 +7,7 @@ public class UpdatedApp {
     public static void main(String[] args) {
         logger.info("I'm updated," +
                 "\ncan be compiled. And can write to console");
+        System.out.println("I'm updated," +
+                "\ncan be compiled. And can write to console");
     }
 }

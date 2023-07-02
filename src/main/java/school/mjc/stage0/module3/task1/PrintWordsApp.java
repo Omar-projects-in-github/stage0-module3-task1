@@ -8,5 +8,8 @@ public class PrintWordsApp {
         logger.info("java" +
                         "\nis" +
                         "\nsmth");
+        System.out.println("java" +
+                        "\nis" +
+                        "\nsmth");
     }
 }
